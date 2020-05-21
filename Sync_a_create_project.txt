@@ -1,0 +1,7 @@
+Đầu tiên m  taọ một cái folfer rỗng. Sau đó add git vào.(git init ấy).
+Tiếp theo là git remote add origin {cái url git}.sau đó: git fetch. xong git fetch m sẽ thấy các branch , dùng git branch -a để xem.Rồi cái nhánh nào m muốn thì phải làm tiếp như thế này : git rebase origin/branch_name.C
+Tiếp theo là git remote add origin {cái url git}.
+sau đó: git fetch. xong git fetch m sẽ thấy các branch , dùng git branch -a để xem.
+Rồi cái nhánh nào m muốn thì phải làm tiếp như thế này : git rebase origin/{branch_name}.
+Cuối cùng là : git push origin master:{branch_name}.
+Khuyên là nên thử trước đừng nhào vô cái đùng khéo mất hết bào đó.
